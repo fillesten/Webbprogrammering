@@ -1,0 +1,241 @@
+
+
+* {
+	box-sizing: border-box;
+	margin: 10;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+
+body {
+	background: linear-gradient(90deg, #C7C5F4, #675ac4);		
+	width: 100%;
+    height: 100;
+}
+
+.top__border {
+	/* background-color: rgba(96, 24, 230, 0.548); */
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	height: 100px;
+	width: 100%;
+	background-color: rgb(79, 38, 177);
+	z-index: 10;
+	margin-bottom: 40px;
+	position: fixed;
+
+}
+.top__border__content {
+
+	font-weight: bold;
+	/* margin: 0 auto;  */
+	width: 960px;
+	color: rgb(0, 0, 0);
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	left: 10px;
+	text-decoration: none;
+	
+}
+
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+	color: rgb(0, 0, 0);	
+
+}
+
+.behållare {
+	float: left;
+}
+
+#sidebar {
+	margin: bottom 40px;
+}
+
+#mainfooter {
+	position: fixed;
+	padding: 10px 10px 10px 10px;
+	bottom: 0;
+	width: 100%;
+	height: 70;
+	background: rgb(46, 0, 83);
+	color:rgb(0, 0, 0);
+	font: bold;
+}
+
+#kontakt {
+	display: flex;
+	flex-wrap: row wrap;
+}
+
+#alignleft {
+	text-align: left;
+	width:33.33333%;
+}
+#alignmiddle {
+	text-align: center;
+	width:33.33333%;
+}
+#alignright {
+	text-align: right;
+	width:33.33333%;
+}
+
+/* STARTA HÄR */
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+	/* overflow-x: hidden; */
+
+}
+
+
+/*hela bildens bakgrundsfärg*/
+body {
+	background: linear-gradient(90deg, #C7C5F4, #675ac4);		
+	width: 100%;
+    height: 100;
+}
+
+.top__border {
+	/* background-color: rgba(96, 24, 230, 0.548); */
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	height: 100px;
+	width: 100%;
+	background-color: rgb(79, 38, 177);
+	z-index: 10;
+	margin-bottom: 40px;
+	position: fixed;
+
+}
+.top__border__content {
+
+	font-weight: bold;
+	/* margin: 0 auto;  */
+	width: 960px;
+	color: rgb(0, 0, 0);
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	left: 10px;
+	text-decoration: none;
+	
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+	color: rgb(0, 0, 0);	
+
+}
+
+#sidebar {
+	margin: bottom 40px;
+}
+
+#mainfooter {
+	position: fixed;
+	padding: 10px 10px 10px 10px;
+	bottom: 0;
+	width: 100%;
+	height: 70;
+	background: rgb(126, 126, 126);
+	color:rgb(0, 0, 0);
+	font: bold;
+}
+
+
+
+.menu {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	z-index: 2; 
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 50vh;
+}
+
+
+
+
+
+
+/*ändrar alla också men gör så dom inte clippar in i "bakgrunden" utan stannar bara inom login rutan*/
+
+
+
+
+.kontakt {
+	display: flex;
+	flex-wrap: row wrap;
+}
+
+.alignleft {
+	text-align: left;
+	width:33.33333%;
+}
+.alignmiddle {
+	text-align: center;
+	width:33.33333%;
+}
+.alignright {
+	text-align: right;
+	width:33.33333%;
+}
+
+#sidebar {
+	background-color: #44006b;
+	height: 100%;
+	width: 120px;
+	position: fixed;
+	left: 0;
+	overflow: auto;
+	padding: 10px;
+	color: #fff;
+  }
+#sidebar li {
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	list-style-type: none;
+	border-bottom: 1px solid #000000;
+	color: #fff;
+
+}
+#sidebar a {
+	text-decoration: none;
+	color: #fff;
+
+}
+#sidebar a:hover {
+	color: #000000;
+}
+
+
+
+.mainfooter {
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	height: 100px;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+<!--
+kommentarer 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Lab1.js"> </script>
+    <link rel="stylesheet" href="Lab1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="sida1" style="visibility: visible;">
+        <h1>Beställ ditt visitkort här: </h1>
+
+        <p>
+            Företag...... <input type ="text" id = "company" /> 
+        </p>
+        <p>
+            Efternamn. <input type ="text" id = "lname" /> 
+        </p>
+        <p>
+            Förnamn... <input type ="text" id = "fname" /> 
+        </p>
+        <p>
+            Titel........... <input type ="text" id = "title" /> 
+        </p>
+        <p>
+            Telefon..... <input type ="text" id = "phone" /> 
+        </p>
+        <p>
+            E-post....... <input type ="email" id = "mail" /> 
+        </p>
+        <p>
+            Bakgrundsfärg....................
+            <select id="bgcolor">
+                <option value="lightblue"> LjusBlå </option>
+                <option value="yellow"> Gul</option>
+                <option value="white"> Vit</option>
+                <option value="turquoise"> Turkos</option>
+            </select>
+        </p>
+        <p>
+            Textfärg.................................
+            <select id="textcolor">
+                <option value="black"> Svart</option>
+                <option value="blue"> Blå</option>
+                <option value="red"> Röd</option>
+                <option value="green"> Grön</option>
+            </select>
+        </p>    
+        <p>
+            Typsnitt............................
+            <select id = "fontopt">
+                <option value="Verdana">Verdana</option>
+                <option value="Ariel">Ariel</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Impact">Impact</option>
+            </select>
+        </p>
+        <p> 
+           <!-- <input type="reset" id="resetknapp" value="Nollställ"> -->
+            <input type="button" id="byt1" value="Skapa Visitkort">
+        </p>
+    </div>
+
+    <div id="sida2" style="visibility: hidden;">
+        <h2 id = "osCompany">   </h2>
+        <p id = "nameresult">   </p>
+        <p id = "osTitle">      </p>
+        <p id = "osNr">         </p>
+        <p id = "osMail">       </p>
+        <!-- <h1>"company"</h1> -->
+        <input type="button" id="byt2" value="Skapa ett annat visitkort">
+    </div>
+</body>
+</html>

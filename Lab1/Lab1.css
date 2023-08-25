@@ -1,0 +1,37 @@
+#sida1 {
+    /*position: fixed;*/
+    border-radius: 15px;
+    border: 3px solid #a50073;
+    background-color: #82ff76;
+    padding: 20px;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+#sida2 {
+   
+    border-radius: 15px;
+    border: 3px solid #a50073;
+    padding: 20px;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    align-items: top;
+    margin: auto;
+
+}
+
+
+
+body {
+    background-color: rgb(189, 74, 54);
+}
+/*
+p {
+    font-family: Impact;
+}
+
+*/
